@@ -95,11 +95,15 @@ Assumption: Git repository is cloned to your local path `/c/tmp/simple-bug-track
 | Backend ORM modeling | [models.py](backend/simple_bug_tracker/models.py) |
 | Backend endpoints | [bug_api.py](backend/simple_bug_tracker/bug_api.py)<br/>[bugs_api.py](backend/simple_bug_tracker/bugs_api.py)<br/>[user_api.py](backend/simple_bug_tracker/user_api.py)<br/>[users_api.py](backend/simple_bug_tracker/users_api.py)|
 
-## ToDo
+## Pending Tasks
 
-1. Implement automatic testing on frontend pages using cypress.
-2. Arrange React pages more structural into `pages/`, `services/` and `components/`.
-3. Externalize API endpoint root to environment variables instead of hardcoded inside React pages.
-4. Implement pylint on Python code to minimize runtime error and standardize coding style.
-5. Enable HTTPS on both frontend and backend servers.
-
+1. Implement bug details update.
+2. Implement bug closing.
+3. Implement bugs assign to users.
+4. Implement user details update.
+5. Implement typeahead for user selection.
+6. Validate entered values length.
+7. Properly handle duplicated user email.
+8. Externalize API endpoint root to environment variables instead of hardcoded inside React pages.
+9. Implement pylint on Python code to minimize runtime error and standardize coding style.
+10. Enable HTTPS on both frontend and backend servers.
