@@ -107,3 +107,4 @@ Assumption: Git repository is cloned to your local path `/c/tmp/simple-bug-track
 8. Externalize API endpoint root to environment variables instead of hardcoded inside React pages.
 9. Implement pylint on Python code to minimize runtime error and standardize coding style.
 10. Enable HTTPS on both frontend and backend servers.
+11. Create Docker and Docker Compose files.
