@@ -25,7 +25,7 @@ export const BugsList = (triggerBugsListReload: any) => {
     // Page rendering.
     return (
         <div>
-            <h3>Users List</h3>
+            <h3>Bugs List</h3>
             <div className='tableFixHead bordered'>
                 <table className='table table-sm table-striped bordered hover'>
                     <thead className='myThead'>
