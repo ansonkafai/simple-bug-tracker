@@ -103,8 +103,9 @@ Assumption: Git repository is cloned to your local path `/c/tmp/simple-bug-track
 4. Implement user details update.
 5. Implement typeahead for user selection.
 6. Validate entered values length.
-7. Properly handle duplicated user email.
-8. Externalize API endpoint root to environment variables instead of hardcoded inside React pages.
-9. Implement pylint on Python code to minimize runtime error and standardize coding style.
-10. Enable HTTPS on both frontend and backend servers.
-11. Create Docker and Docker Compose files.
+7. Pagination.
+8. Properly handle duplicated user email.
+9. Externalize API endpoint root to environment variables instead of hardcoded inside React pages.
+10. Implement pylint on Python code to minimize runtime error and standardize coding style.
+11. Enable HTTPS on both frontend and backend servers.
+12. Create Docker and Docker Compose files.
