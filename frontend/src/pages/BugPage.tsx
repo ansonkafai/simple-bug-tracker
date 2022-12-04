@@ -26,7 +26,7 @@ const BugPage = () => {
                     <BugForm onBugFormSubmitSuccess={onBugFormSubmitSuccess}/>
                 </Col>
                 <Col className='m-1'>
-                    {/* Users listing component. */}
+                    {/* Bugs listing component. */}
                     <BugsList triggerBugsListReload={triggerBugsListReload}/>
                 </Col>
             </Row>

@@ -21,12 +21,12 @@ const NavigationBar = () => {
 
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' data-bs-target='responsive-navbar-nav'/>
                 <Navbar.Collapse id='responsive-navbar-nav'>
-                    {/* Link to bugs listing. */}
+                    {/* Link to bug page. */}
                     <Nav>
                         <NavLink href='/bug'>Bug</NavLink>
                     </Nav>
 
-                    {/* Link to create user. */}
+                    {/* Link to user page. */}
                     <Nav className='me-auto'>
                         <NavLink href='/user'>User</NavLink>
                     </Nav>
